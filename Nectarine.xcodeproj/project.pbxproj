@@ -85,7 +85,7 @@
 				946D817121C405640068A02A /* NectCompiler */,
 				946D817021C405530068A02A /* NectAST */,
 				946D816E21C405330068A02A /* NectExpression */,
-				946D816F21C4053F0068A02A /* NectStatement */,
+				946D817221C87E350068A02A /* NectStatement */,
 				946D814421C3A4750068A02A /* NectConfig.hpp */,
 				946D814621C3A6890068A02A /* NectError.hpp */,
 				946D815121C3AC0D0068A02A /* NectCommon.hpp */,
@@ -112,16 +112,6 @@
 			path = NectExpression;
 			sourceTree = "<group>";
 		};
-		946D816F21C4053F0068A02A /* NectStatement */ = {
-			isa = PBXGroup;
-			children = (
-				946D814921C3A71B0068A02A /* NectStatement.hpp */,
-				946D814F21C3AB730068A02A /* NectStatementDefinition.hpp */,
-				946D814821C3A71B0068A02A /* NectStatement.cpp */,
-			);
-			name = NectStatement;
-			sourceTree = "<group>";
-		};
 		946D817021C405530068A02A /* NectAST */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +130,16 @@
 				946D813E21C3A1F70068A02A /* NectCompiler.hpp */,
 			);
 			path = NectCompiler;
+			sourceTree = "<group>";
+		};
+		946D817221C87E350068A02A /* NectStatement */ = {
+			isa = PBXGroup;
+			children = (
+				946D814921C3A71B0068A02A /* NectStatement.hpp */,
+				946D814F21C3AB730068A02A /* NectStatementDefinition.hpp */,
+				946D814821C3A71B0068A02A /* NectStatement.cpp */,
+			);
+			path = NectStatement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
