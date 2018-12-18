@@ -1,0 +1,10 @@
+var a = 0;
+var b = 100;
+while b > 0 {
+  if b / 2 * 2 == b {
+    a = a + b;
+  } else {
+    a = a + b + 1;
+  }
+  b = b - 1;
+}

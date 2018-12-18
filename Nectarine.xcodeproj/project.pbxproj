@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945997B421C1655200C0274D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 945997B321C1655200C0274D /* main.cpp */; };
+		946D813C21C3A09F0068A02A /* NectStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946D813A21C3A09F0068A02A /* NectStack.cpp */; };
+		946D813F21C3A1F70068A02A /* NectCompiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946D813D21C3A1F70068A02A /* NectCompiler.cpp */; };
+		946D814321C3A41F0068A02A /* NectExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946D814121C3A41F0068A02A /* NectExpression.cpp */; };
+		946D814A21C3A71B0068A02A /* NectStatement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 946D814821C3A71B0068A02A /* NectStatement.cpp */; };
+		946D816C21C3E5CB0068A02A /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946D816B21C3E5CB0068A02A /* libboost_system.a */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		945997AE21C1655200C0274D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		945997B021C1655200C0274D /* Nectarine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nectarine; sourceTree = BUILT_PRODUCTS_DIR; };
+		945997B321C1655200C0274D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		946D813A21C3A09F0068A02A /* NectStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NectStack.cpp; sourceTree = "<group>"; };
+		946D813B21C3A09F0068A02A /* NectStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectStack.hpp; sourceTree = "<group>"; };
+		946D813D21C3A1F70068A02A /* NectCompiler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NectCompiler.cpp; sourceTree = "<group>"; };
+		946D813E21C3A1F70068A02A /* NectCompiler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectCompiler.hpp; sourceTree = "<group>"; };
+		946D814021C3A25E0068A02A /* NectAST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectAST.hpp; sourceTree = "<group>"; };
+		946D814121C3A41F0068A02A /* NectExpression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NectExpression.cpp; sourceTree = "<group>"; };
+		946D814221C3A41F0068A02A /* NectExpression.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectExpression.hpp; sourceTree = "<group>"; };
+		946D814421C3A4750068A02A /* NectConfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectConfig.hpp; sourceTree = "<group>"; };
+		946D814621C3A6890068A02A /* NectError.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectError.hpp; sourceTree = "<group>"; };
+		946D814821C3A71B0068A02A /* NectStatement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NectStatement.cpp; sourceTree = "<group>"; };
+		946D814921C3A71B0068A02A /* NectStatement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectStatement.hpp; sourceTree = "<group>"; };
+		946D814C21C3A9490068A02A /* NectAdapt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectAdapt.hpp; sourceTree = "<group>"; };
+		946D814F21C3AB730068A02A /* NectStatementDefinition.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectStatementDefinition.hpp; sourceTree = "<group>"; };
+		946D815121C3AC0D0068A02A /* NectCommon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectCommon.hpp; sourceTree = "<group>"; };
+		946D815221C3B2700068A02A /* NectExpressionDefinition.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NectExpressionDefinition.hpp; sourceTree = "<group>"; };
+		946D816B21C3E5CB0068A02A /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../../usr/local/Cellar/boost/1.68.0/lib/libboost_system.a; sourceTree = SOURCE_ROOT; };
+		946D816D21C3FF380068A02A /* example.nect */ = {isa = PBXFileReference; lastKnownFileType = text; path = example.nect; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945997AD21C1655200C0274D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946D816C21C3E5CB0068A02A /* libboost_system.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		945997A721C1655200C0274D = {
+			isa = PBXGroup;
+			children = (
+				945997B221C1655200C0274D /* Nectarine */,
+				945997B121C1655200C0274D /* Products */,
+				946D815321C3BD5C0068A02A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		945997B121C1655200C0274D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945997B021C1655200C0274D /* Nectarine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945997B221C1655200C0274D /* Nectarine */ = {
+			isa = PBXGroup;
+			children = (
+				945997B321C1655200C0274D /* main.cpp */,
+				946D817121C405640068A02A /* NectCompiler */,
+				946D817021C405530068A02A /* NectAST */,
+				946D816E21C405330068A02A /* NectExpression */,
+				946D816F21C4053F0068A02A /* NectStatement */,
+				946D814421C3A4750068A02A /* NectConfig.hpp */,
+				946D814621C3A6890068A02A /* NectError.hpp */,
+				946D815121C3AC0D0068A02A /* NectCommon.hpp */,
+				946D816D21C3FF380068A02A /* example.nect */,
+			);
+			path = Nectarine;
+			sourceTree = "<group>";
+		};
+		946D815321C3BD5C0068A02A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946D816B21C3E5CB0068A02A /* libboost_system.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		946D816E21C405330068A02A /* NectExpression */ = {
+			isa = PBXGroup;
+			children = (
+				946D814221C3A41F0068A02A /* NectExpression.hpp */,
+				946D815221C3B2700068A02A /* NectExpressionDefinition.hpp */,
+				946D814121C3A41F0068A02A /* NectExpression.cpp */,
+			);
+			path = NectExpression;
+			sourceTree = "<group>";
+		};
+		946D816F21C4053F0068A02A /* NectStatement */ = {
+			isa = PBXGroup;
+			children = (
+				946D814921C3A71B0068A02A /* NectStatement.hpp */,
+				946D814F21C3AB730068A02A /* NectStatementDefinition.hpp */,
+				946D814821C3A71B0068A02A /* NectStatement.cpp */,
+			);
+			name = NectStatement;
+			sourceTree = "<group>";
+		};
+		946D817021C405530068A02A /* NectAST */ = {
+			isa = PBXGroup;
+			children = (
+				946D814021C3A25E0068A02A /* NectAST.hpp */,
+				946D814C21C3A9490068A02A /* NectAdapt.hpp */,
+			);
+			path = NectAST;
+			sourceTree = "<group>";
+		};
+		946D817121C405640068A02A /* NectCompiler */ = {
+			isa = PBXGroup;
+			children = (
+				946D813A21C3A09F0068A02A /* NectStack.cpp */,
+				946D813B21C3A09F0068A02A /* NectStack.hpp */,
+				946D813D21C3A1F70068A02A /* NectCompiler.cpp */,
+				946D813E21C3A1F70068A02A /* NectCompiler.hpp */,
+			);
+			path = NectCompiler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945997AF21C1655200C0274D /* Nectarine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945997B721C1655200C0274D /* Build configuration list for PBXNativeTarget "Nectarine" */;
+			buildPhases = (
+				945997AC21C1655200C0274D /* Sources */,
+				945997AD21C1655200C0274D /* Frameworks */,
+				945997AE21C1655200C0274D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nectarine;
+			productName = Nectarine;
+			productReference = 945997B021C1655200C0274D /* Nectarine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945997A821C1655200C0274D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Harbour Space";
+				TargetAttributes = {
+					945997AF21C1655200C0274D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 945997AB21C1655200C0274D /* Build configuration list for PBXProject "Nectarine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 945997A721C1655200C0274D;
+			productRefGroup = 945997B121C1655200C0274D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945997AF21C1655200C0274D /* Nectarine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945997AC21C1655200C0274D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946D813F21C3A1F70068A02A /* NectCompiler.cpp in Sources */,
+				946D814321C3A41F0068A02A /* NectExpression.cpp in Sources */,
+				946D813C21C3A09F0068A02A /* NectStack.cpp in Sources */,
+				945997B421C1655200C0274D /* main.cpp in Sources */,
+				946D814A21C3A71B0068A02A /* NectStatement.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		945997B521C1655200C0274D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		945997B621C1655200C0274D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		945997B821C1655200C0274D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.68.0/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.68.0/lib;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		945997B921C1655200C0274D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.68.0/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.68.0/lib;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945997AB21C1655200C0274D /* Build configuration list for PBXProject "Nectarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945997B521C1655200C0274D /* Debug */,
+				945997B621C1655200C0274D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945997B721C1655200C0274D /* Build configuration list for PBXNativeTarget "Nectarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945997B821C1655200C0274D /* Debug */,
+				945997B921C1655200C0274D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945997A821C1655200C0274D /* Project object */;
+}
